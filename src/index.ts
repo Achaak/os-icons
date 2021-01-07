@@ -1,7 +1,7 @@
-import { getBrowserIcon} from "./icons"
+import { getOSIcon} from "./icons"
 import { OS } from "./types"
 
 export {
-  getBrowserIcon,
+  getOSIcon,
   OS
 }

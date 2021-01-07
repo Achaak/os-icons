@@ -12,7 +12,7 @@ type getBrowser = {
   style?: React.CSSProperties,
   size: number | string
 }
-export const getBrowserIcon = ({ os, className, style, size }: getBrowser) => {
+export const getOSIcon = ({ os, className, style, size }: getBrowser) => {
   const Component = svg[os]
 
   return (
