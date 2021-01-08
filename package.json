@@ -1,11 +1,16 @@
 {
   "name": "react-os-icons",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Tools to get os svg.",
   "main": "./lib/index.js",
   "module": "lib/index.es.js",
   "jsnext:main": "lib/index.es.js",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "lib",
+    "svg",
+    "os"
+  ],
   "files": [
     "lib"
   ],
