@@ -4,6 +4,7 @@ import external from "rollup-plugin-peer-deps-external";
 import resolve from "rollup-plugin-node-resolve";
 import react from 'react';
 import reactDom from 'react-dom';
+import { terser } from "rollup-plugin-terser";
 
 import pkg from "./package.json";
 
@@ -43,6 +44,7 @@ export default {
         'react': Object.keys(react),
         'react-dom': Object.keys(reactDom)
       }
-    })
+    }),
+    terser()
   ]
 };

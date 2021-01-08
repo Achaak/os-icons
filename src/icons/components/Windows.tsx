@@ -1,13 +1,7 @@
 import React from "react";
+import { SVGComponent } from "../../types";
 
-interface CustomProps {
-  className?: string,
-  height?: number | string,
-  width?: number | string,
-  style?: React.CSSProperties,
-}
-
-export default ({ ...props }: CustomProps) => {
+export default ({ ...props }: SVGComponent) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.3 87.6" {...props}>
       <path
