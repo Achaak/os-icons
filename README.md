@@ -29,3 +29,6 @@ Example:
 ``` js
 console.log(OSList) // "Windows" | "Android" | "Fedora" | "Debian" | "Linux" | "Mac OS" | "Nintendo" | "PlayStation" | "BlackBerry" | "Ubuntu" | "Unix" | "Arch" | "iOS" | "Linux Mint" | "Elementary OS"
 ```
+
+## Crédits
+https://github.com/edent/SuperTinyIcons
