@@ -3,11 +3,16 @@ import { SVGComponent } from "../../types";
 
 export default ({ ...props }: SVGComponent) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.3 87.6" {...props}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      aria-label="Windows"
+      viewBox="0 0 512 512"
+      {...props}
+    >
+      <rect width={512} height={512} rx="15%" fill="#00adef" />
       <path
-        d="M0 12.5l35.7-4.9v34.5H0M40 6.9L87.3 0v41.8H40M0 45.74h35.7v34.6l-35.7-5M40 46.2h47.3v41.4L40 80.9"
-        fill="#0078d6"
-        data-name="Calque 1"
+        fill="#fff"
+        d="M98 145l127-18v123H98m142-125l168-24v148H240M98 263h127v123L98 368m142-104h168v147l-168-24"
       />
     </svg>
   );

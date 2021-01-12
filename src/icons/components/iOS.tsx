@@ -3,61 +3,60 @@ import { SVGComponent } from "../../types";
 
 export default ({ ...props }: SVGComponent) => {
   return (
-    <svg viewBox="0 0 196 196" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" {...props}>
       <defs>
-        <linearGradient id="prefix__a" x1="50%" x2="50%" y1="50%" y2="100%">
-          <stop stopColor="#fff" offset={0} />
-          <stop stopColor="#E9E5E5" offset={1} />
+        <linearGradient
+          id="prefix__a"
+          x1={87.583}
+          y1={157.269}
+          x2={87.583}
+          y2={331.338}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopColor="#0339f1" />
+          <stop offset={1} stopColor="#01ade5" />
         </linearGradient>
-        <linearGradient id="prefix__b" x1="50%" x2="50%" y2="87.052%">
-          <stop stopColor="#0339F1" offset={0} />
-          <stop stopColor="#01ADE5" offset={1} />
+        <linearGradient
+          id="prefix__b"
+          x1={-376.44}
+          y1={764.54}
+          x2={-375.01}
+          y2={762.95}
+          gradientTransform="matrix(72.81 0 0 -84.09 27544.03 64462.55)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0} stopColor="#0756ee" />
+          <stop offset={0.37} stopColor="#00a3f5" />
+          <stop offset={0.72} stopColor="#18b5b6" />
+          <stop offset={1} stopColor="#80df43" />
         </linearGradient>
         <linearGradient
           id="prefix__c"
-          x1="14.011%"
-          x2="73.603%"
-          y1="9.535%"
-          y2="75.34%"
+          x1={-373.05}
+          y1={764.67}
+          x2={-371.28}
+          y2={762.55}
+          gradientTransform="matrix(57.92 0 0 -84.08 21915.75 64457.24)"
+          gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0756EE" offset={0} />
-          <stop stopColor="#00A3F5" offset={0.374} />
-          <stop stopColor="#18B5B6" offset={0.717} />
-          <stop stopColor="#80DF43" offset={1} />
-        </linearGradient>
-        <linearGradient
-          id="prefix__d"
-          x1="13.017%"
-          x2="86.649%"
-          y1="3.073%"
-          y2="90.776%"
-        >
-          <stop stopColor="#20BBA6" offset={0} />
-          <stop stopColor="#9BEC23" offset={0.499} />
-          <stop stopColor="#D9EF35" offset={1} />
+          <stop offset={0} stopColor="#20bba6" />
+          <stop offset={0.5} stopColor="#9bec23" />
+          <stop offset={1} stopColor="#d9ef35" />
         </linearGradient>
       </defs>
+      <rect width={512} height={512} rx={76.8} fill="#fff" />
       <g fillRule="evenodd">
-        <rect
-          x={1}
-          y={1}
-          width={194}
-          height={194}
-          rx={45}
+        <path
+          d="M92.48 354.37h-11V207.54h11zm-5.65-182.82a8.39 8.39 0 118.56-8.31 8.38 8.38 0 01-8.56 8.31z"
           fill="url(#prefix__a)"
-          stroke="#D9D9D9"
         />
         <path
-          d="M32.882 137.54h-4.563V76.561h4.563v60.979zm-2.347-75.927c-1.924 0-3.515-1.527-3.515-3.45a3.497 3.497 0 013.515-3.517c1.982 0 3.557 1.527 3.557 3.516 0 1.924-1.575 3.451-3.557 3.451z"
+          d="M199.2 357.23c-53.73 0-87.67-39.12-87.67-101.31 0-61.88 34.1-101.15 87.67-101.15s87.64 39.28 87.64 101.15c0 62.19-33.94 101.31-87.64 101.31zm0-192.36c-46.77 0-76.62 35.31-76.62 91s30 91.22 76.62 91.22 76.61-35.44 76.61-91.22-29.85-91-76.61-91z"
           fill="url(#prefix__b)"
         />
         <path
-          d="M77.205 138.73c-22.313 0-36.409-16.248-36.409-42.076 0-25.699 14.161-42.011 36.409-42.011s36.401 16.313 36.401 42.011c0 25.829-14.096 42.076-36.401 42.076zm0-79.89c-19.422 0-31.821 14.664-31.821 37.813 0 23.166 12.456 37.887 31.821 37.887 19.422 0 31.821-14.721 31.821-37.887 0-23.157-12.399-37.813-31.821-37.813z"
+          d="M365.08 357.23c-40.33 0-69.25-22.78-70.89-55.35H305c1.64 26.71 26.73 45.4 60.94 45.4 33.39 0 56.7-19 56.7-44.58 0-20.6-13.91-32.45-46.89-40.76l-23.3-5.73c-36.38-9.28-52.9-24-52.9-48.66 0-30.67 28.64-52.76 64.49-52.76 37.07 0 64.75 21.81 66 50.71h-10.83c-1.5-23.58-24.53-40.76-55.48-40.76-29.6 0-53.18 17.73-53.18 42.54 0 19.65 14.45 30.95 46.06 38.84l22 5.6c38 9.4 55.07 24 55.07 50.16 0 32.57-27.39 55.35-68.56 55.35z"
           fill="url(#prefix__c)"
-        />
-        <path
-          d="M146.1 138.73c-16.751 0-28.76-9.46-29.442-22.987h4.474c.682 11.092 11.1 18.854 25.309 18.854 13.868 0 23.547-7.876 23.547-18.513 0-8.558-5.773-13.479-19.471-16.93l-9.679-2.38c-15.11-3.856-21.972-9.97-21.972-20.21 0-12.74 11.895-21.914 26.787-21.914 15.395 0 26.892 9.061 27.404 21.063h-4.474c-.625-9.793-10.19-16.93-23.044-16.93-12.293 0-22.086 7.364-22.086 17.668 0 8.16 6 12.854 19.13 16.134l9.119 2.322c15.793 3.906 22.873 9.971 22.873 20.835 0 13.527-11.376 22.987-28.476 22.987z"
-          fill="url(#prefix__d)"
         />
       </g>
     </svg>

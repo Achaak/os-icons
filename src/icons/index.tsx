@@ -12,6 +12,8 @@ import Ubuntu from "./components/Ubuntu";
 import Unix from "./components/Unix";
 import Arch from "./components/Arch";
 import iOS from "./components/iOS";
+import LinuxMint from "./components/Linux Mint";
+import ElementaryOS from "./components/Elementary OS";
 
 const lastVersion = {
   "Windows": Windows,
@@ -27,9 +29,11 @@ const lastVersion = {
   "Unix": Unix,
   "Arch": Arch,
   "iOS": iOS,
+  "Linux Mint": LinuxMint,
+  "Elementary OS": ElementaryOS,
 }
 
-export const OSList = ["Windows", "Android", "Fedora", "Debian", "Linux", "Mac OS", "Nintendo", "PlayStation", "BlackBerry", "Ubuntu", "Unix", "Arch", "iOS"]
+export const OSList = ["Windows", "Android", "Fedora", "Debian", "Linux", "Mac OS", "Nintendo", "PlayStation", "BlackBerry", "Ubuntu", "Unix", "Arch", "iOS", "Linux Mint", "Elementary OS"]
 export type OS = keyof typeof lastVersion
 
 type getBrowser = {

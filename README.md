@@ -27,5 +27,5 @@ Return the managed list of os.
 
 Example:
 ``` js
-console.log(OSList) // "Windows" | "Android" | "Fedora" | "Debian" | "Linux" | "Mac OS" | "Nintendo" | "PlayStation" | "BlackBerry" | "Ubuntu" | "Unix" | "Arch" | "iOS"
+console.log(OSList) // "Windows" | "Android" | "Fedora" | "Debian" | "Linux" | "Mac OS" | "Nintendo" | "PlayStation" | "BlackBerry" | "Ubuntu" | "Unix" | "Arch" | "iOS" | "Linux Mint" | "Elementary OS"
 ```
