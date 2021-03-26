@@ -1,11 +1,16 @@
 {
   "name": "react-os-icons",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Tools to get os svg.",
   "main": "./lib/index.js",
   "module": "lib/index.es.js",
   "jsnext:main": "lib/index.es.js",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "lib",
+    "svg",
+    "os"
+  ],
   "files": [
     "lib"
   ],
@@ -30,6 +35,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.29.0",
     "typescript": "^4.1.3"
   },

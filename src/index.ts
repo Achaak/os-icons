@@ -1,7 +1,9 @@
-import { getOSIcon} from "./icons"
-import { OS } from "./types"
+import { 
+  getOSIcon, OSList, OS
+} from "./icons"
 
 export {
   getOSIcon,
+  OSList,
   OS
 }
